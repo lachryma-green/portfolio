@@ -42,7 +42,7 @@ export default function Home() {
             transition={{ duration: 1 }}
             className="fixed inset-0 flex items-center justify-center bg-white z-50"
           >
-            <div className="flex text-center flex-col">
+            <div className="flex text-center justify-center items-center flex-col">
               <p className="text-5xl md:text-6xl font-bold">
                 {displayText}
                 <span>
@@ -70,8 +70,8 @@ export default function Home() {
           className="opacity-70"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
-          <p className="text-6xl md:text-8xl font-bold leading-none">SHINNOSUKE</p>
-          <p className="text-6xl md:text-8xl font-bold leading-none">UMEKAWA</p>
+          <p className="text-5xl md:text-8xl font-bold leading-none">SHINNOSUKE</p>
+          <p className="text-5xl md:text-8xl font-bold leading-none">UMEKAWA</p>
         </div>
       </div>
       
