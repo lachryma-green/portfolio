@@ -43,7 +43,7 @@ export default function Home() {
             className="fixed inset-0 flex items-center justify-center bg-white z-50"
           >
             <div className="flex text-center flex-col">
-              <p className="text-6xl font-bold">
+              <p className="text-5xl md:text-6xl font-bold">
                 {displayText}
                 <span>
                   ｜
